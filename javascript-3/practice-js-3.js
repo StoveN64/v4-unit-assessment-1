@@ -30,9 +30,9 @@ function setGroceryListTitle (x){
 
 //CODE HERE
 function addItem (item){
-    let groceries = item
+    groceries.push(item);
     displayData()
-}
+} 
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -42,7 +42,10 @@ function addItem (item){
 */
 
 //CODE HERE
-
+function removeItem (index){
+    groceries.pop(index)
+    displayData()
+}
 //////////////////STEP 6////////////////////
 /*
     Create a function called 'checkGroceryCount'. Inside of checkGroceryCount, 
@@ -55,7 +58,9 @@ function addItem (item){
 */
 
 //CODE HERE
+function checkGroceryCount (){
 
+}
 
 //////////////////Check out your code!////////////////////
 /*

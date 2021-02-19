@@ -134,14 +134,14 @@ let me = {
 
 // CODE HERE
 function bigOrSmall (arr){
-  let answers = []
+  let answers = ['']
   for (let i = 0; i < array.length; i++) {
-    if ( arr[i] > 100 ) {
-      answers.push('big')
+    if (arr[i] > 100 ) {
+      answers.push('big');
     } else { 
       answers.push('small')
-    }
-  } return answers;
+    } return answers;
+  } 
 }
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -156,7 +156,7 @@ function bigOrSmall (arr){
 //CODE HERE
 function arrayReverser (arr){
   let reversed = []
-  for (let i= arr.length-1; i>=0; index--) {
+  for (let i= arr.length - 1; i>=0; i--) {
     reversed.push(arr[i]);
   } return reversed ;
 }
@@ -231,7 +231,12 @@ function isItBob (obj,cb){
 */
 
 //CODE HERE
-
+function giveMeDoubles(arr,cb){
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] * 2;
+  }
+}
+cb()
 //////////////////PROBLEM 18////////////////////
 /*
   Write a function called carFactory that takes in three parameters: a make, model, and year.  
@@ -258,3 +263,10 @@ function isItBob (obj,cb){
 */
 
 //CODE HERE
+function carFactory (make, model, year){
+  let myObj = {
+    make ,
+    model ,
+    year
+  }
+}
