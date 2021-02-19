@@ -215,7 +215,14 @@ function firstItem (arr,cb){
 */
 
 //CODE HERE
+function isItBob (obj,cb){
+  if (obj.name === true){
+    cb(true);
+  } else {
+    cb(false);
+  }
 
+}
 //////////////////PROBLEM 17////////////////////
 /*
   Write a function called giveMeDoubles that takes in two arguments: an array of numbers and a callback.  
